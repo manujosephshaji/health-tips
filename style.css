@@ -1,0 +1,243 @@
+body{
+    margin: 0;
+    scroll-behavior: smooth;
+}
+/**Nava-Bar-section**/
+.nava-bar-container{
+    width: 95%;
+    border: 2px solid black;
+    border-radius:20px ;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.nava-list{
+    margin: 0;
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.nava-bar , a{
+    display: inline-block;
+    padding: 10px 10px;
+    color: black;
+    text-decoration:none;
+    
+}
+.nava-bar a:hover{
+ color: white;
+ transition: 1.3s;
+}
+.nava-bar:hover{
+    background-color: black;
+    transition:1s;
+    border-radius: 30px;
+    box-shadow: 15px 0px 30px -10px black, -15px 0px 30px -10px;
+}
+
+/***HeadLine-Section**/
+
+.head-container{
+    font-size: 25px;
+    margin-top: 50px;
+    justify-content: center;
+}
+.headline{
+    text-align: center;
+    margin: 0;
+    font-family: sans-serif;
+    letter-spacing: 10px;
+}
+
+ /***First-Box-Container**/
+
+
+.box-container{
+    margin-top: 80px;
+    margin-left: 100px;
+}
+.box-1{
+    width: 80%;
+    margin-bottom: 50px;
+}
+.box-1 h2{
+    margin: 0;
+    display: inline-block;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+.box-1 p{
+    font-family: sans-serif;
+    font-size: 25px;
+}
+ 
+/****Card-Box****/
+
+.box-2-container{
+    border: 1px solid white;
+    border-radius: 20px;
+    margin-top: 80px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+    width: 90%;
+    height: 563px;
+    box-shadow: 20px 20px 50px -2px, -10px -10px 50px 2px;
+}
+.box-2{
+    width: 90%;
+}
+.image-box-1{
+    float: left;
+    margin-right: 40px;
+}
+.image-1{
+    width: 375px;
+    object-fit: contain;
+    border-radius: 20px 0px 0px 20px;
+}
+.box-2 h2{
+    display: inline-block;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+.box-2 p{
+    font-family: sans-serif;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+/******Warring-contianer******/
+
+.warring-container{
+    margin-top: 80px;
+    background-color: black;
+    padding: 10px 10px;
+}
+.box-3{
+    width: 95%;
+    color: white;
+    margin-left: 40px;
+}
+.box-3 h2{
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+.box-3 p{
+    font-family: sans-serif;
+    font-size: 25px;
+}
+
+/****image float card*****/
+
+.cards-left-container{
+    margin-top: 80px;
+    margin-left: 40px;
+
+}
+.cards-left-container h2{
+    font-family: sans-serif ;
+    font-weight: bolder;
+
+} 
+.headline-4{
+    display: inline-block;
+    margin:0 ;
+}
+.image-left{
+    width: 270px;
+    object-fit: contain;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+.cards-left-image{
+    float: left;
+}
+.cards-left-container p{
+    font-family: sans-serif;
+    line-height: 35px;
+    font-size: 25px;
+}
+
+/***** card float image right****/
+
+.cards-right-image{
+    float: right;
+}
+.image-right{
+    width: 270px;
+    object-fit: contain;
+    margin-right: 40px;
+}
+
+/*****Thanku-seciton*****/
+
+.thanku-section{
+    text-align: center;
+    margin-top: 89px;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+.footer-section{
+    background-color: black;
+    width: 100%;
+    padding-bottom: 60px;
+    color: white;
+}
+.copy{
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+
+
+
+@media(min-width: 412px) and (max-width:941px){
+ 
+
+    /****NavaBar-Section****/
+
+.nava-bar-container{
+    width: 95%;
+    margin-left: 13px;
+}   
+.nava-list{
+    padding: 0px;
+    text-align: center;
+}
+
+/******Box-1-Container-Section*****/
+.box-container{
+    margin-top: 80px;
+    margin-left: 13px;
+    width: 96%;
+}
+.box-1{
+    width: 100%;
+    margin-bottom: 50px;
+}
+/*******Box-2-Fitness-Section********/
+.box-2-container{
+    margin-left: 8px;
+    width: 96%;
+    height: auto;
+}
+.box-2{
+    width: 102%;
+}
+
+.image-box-1{
+    float: left;
+    margin-right: 11px;
+}
+.image-1{
+    width: 240px;
+    border-radius: 20px;
+}
+
+.cards-left-container {
+    margin-top: 80px;
+    margin-left: 10px;
+}
+
+
+}
